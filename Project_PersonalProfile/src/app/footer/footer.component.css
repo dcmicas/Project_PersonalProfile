@@ -1,0 +1,35 @@
+.footer {
+    background-color: rgb(111, 111, 111);  
+    border-top-width: 1px;
+    border-top-style: solid;
+    border-top-color: rgb(75, 74, 74);
+    font-size: 15px;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    padding: 5px;
+}
+
+.footer__copyright {
+    text-align: center;
+    margin-top: 0px;
+    font-weight: bold;
+    padding: 15px;
+    
+}
+
+.footer__about-text i {
+    width: 450px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.footer i {
+    text-align: center;
+    font-size: 45px;
+    color: rgb(43, 42, 42);
+    padding: 10px 35px;
+}
